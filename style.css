@@ -1,0 +1,104 @@
+.container {
+    background-color: aqua;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    margin-top: 1.5rem;
+    border-radius: .5rem;
+    padding: .5rem;
+    
+    
+}
+.heading {
+    font-size: 2.5rem;
+    padding: .5rem;
+}
+h1 {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    width: 95%;
+}
+
+.bg-color{
+    background-color: yellowgreen;
+}
+
+label,input {
+    font-size: 1.7rem;
+    width: 7rem;
+    margin-right: 1rem;
+    border: none;
+    height: 2rem;
+    border-radius: 5px;
+    text-align: center;
+    
+    
+}
+
+
+#btn {
+    border: none;
+    padding: .6rem 1rem;
+    border-radius: 5px;
+    background-color: tomato;
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+#btn:hover {
+    background-color: red;
+}
+#reset {
+    border: none;
+    padding: .6rem 1rem;
+    border-radius: 5px;
+    background-color: rebeccapurple;
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+#reset:hover {
+    background-color: salmon;
+}
+
+#result {
+    background-color:gainsboro;
+    color: blue;
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 1rem 0;
+}
+
+@media only screen and (max-width: 600px) {
+   .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+   }
+   #btn {
+    
+    font-size: 1rem;
+   
+}
+#reset {
+ 
+    font-size: 1rem;
+    
+   
+}
+#result {
+    
+    font-size: 1.5rem;
+    padding: 8px 16px;
+    width: 92%;
+    
+}
+
+  }

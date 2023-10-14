@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="style.css">
+
+    
+  </head>
+  <body>
+   
+   
+   <div class="container">
+    <h1 class="heading">Hour's Addition Calculator</h1><br>
+    <h1 class="bg-color">FORM</h1><br>
+
+    <label for="hours1">Hours</label>
+    <input id="hours1" type="text">
+
+    <label for="minute1">Minutes</label>
+    <input id="minute1" type="text">
+
+    <br>
+    <h1 class="bg-color">TO</h1>
+    <br>
+    <label for="hours2">Hours</label>
+    <input id="hours2" type="text"> 
+    
+    <label for="minute2">Minutes</label>
+    <input id="minute2" type="text">
+    <br><br>
+    
+    <div>
+      <button id="btn" onclick="calculate(addHour(),addMinute())">Calculate</button>
+    <button id="reset" onclick="reset()">Reset</button>
+    </div>
+   
+
+    
+    <h2 id="result">Result</h2>
+   </div>
+
+    <script src="Javascript.js"></script>
+  </body>
+</html>
